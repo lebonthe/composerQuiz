@@ -13,6 +13,8 @@
 		9FC208DF2AB366B4007ADEDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC208DD2AB366B4007ADEDC /* Main.storyboard */; };
 		9FC208E12AB366B6007ADEDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC208E02AB366B6007ADEDC /* Assets.xcassets */; };
 		9FC208E42AB366B6007ADEDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC208E22AB366B6007ADEDC /* LaunchScreen.storyboard */; };
+		9FC208EC2AB3670E007ADEDC /* Composers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC208EB2AB3670E007ADEDC /* Composers.swift */; };
+		9FC208EE2AB45AB4007ADEDC /* MyAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC208ED2AB45AB4007ADEDC /* MyAlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9FC208E02AB366B6007ADEDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FC208E32AB366B6007ADEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FC208E52AB366B6007ADEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC208EB2AB3670E007ADEDC /* Composers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composers.swift; sourceTree = "<group>"; };
+		9FC208ED2AB45AB4007ADEDC /* MyAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		9FC208CB2AB366B4007ADEDC = {
 			isa = PBXGroup;
 			children = (
+				9FC208ED2AB45AB4007ADEDC /* MyAlertController.swift */,
 				9FC208D62AB366B4007ADEDC /* composerQuiz */,
 				9FC208D52AB366B4007ADEDC /* Products */,
 			);
@@ -59,6 +64,7 @@
 				9FC208D72AB366B4007ADEDC /* AppDelegate.swift */,
 				9FC208D92AB366B4007ADEDC /* SceneDelegate.swift */,
 				9FC208DB2AB366B4007ADEDC /* ViewController.swift */,
+				9FC208EB2AB3670E007ADEDC /* Composers.swift */,
 				9FC208DD2AB366B4007ADEDC /* Main.storyboard */,
 				9FC208E02AB366B6007ADEDC /* Assets.xcassets */,
 				9FC208E22AB366B6007ADEDC /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC208DC2AB366B4007ADEDC /* ViewController.swift in Sources */,
+				9FC208EC2AB3670E007ADEDC /* Composers.swift in Sources */,
+				9FC208EE2AB45AB4007ADEDC /* MyAlertController.swift in Sources */,
 				9FC208D82AB366B4007ADEDC /* AppDelegate.swift in Sources */,
 				9FC208DA2AB366B4007ADEDC /* SceneDelegate.swift in Sources */,
 			);
@@ -300,6 +308,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +337,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
